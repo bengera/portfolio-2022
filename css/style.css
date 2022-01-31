@@ -319,11 +319,21 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #222222; }
 
+main {
+  max-width: 900px;
+  margin: 0 auto; }
+
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
   color: #FEFEFE;
   margin-bottom: 1rem; }
+
+.section-heading {
+  color: #FEFEFE;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem; }
 
 .hero {
   min-height: 100vh;
@@ -332,13 +342,12 @@ h1 {
   align-items: center; }
   .hero__content {
     padding: 4rem;
-    border: 2px hotpink;
     margin-bottom: 1rem; }
   .hero__tagline {
     line-height: 28px;
     font-size: 1.3rem;
     color: #8D99AE;
-    margin-bottom: 1rem; }
+    margin-bottom: 3rem; }
   .hero__cta {
     background: transparent;
     color: #FEFEFE;
@@ -347,9 +356,67 @@ h1 {
     border: 2px solid #33FFA9;
     cursor: pointer; }
 
-section {
-  background-color: white; }
-
 .bold {
   color: #33FFA9;
   font-weight: 600; }
+
+.about {
+  margin-bottom: 2rem; }
+  .about__content {
+    padding: 0 1.5rem;
+    margin: 0 auto; }
+  .about__img {
+    max-width: 100%;
+    margin: 0 0 2.5rem; }
+  .about__description {
+    color: #FEFEFE;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 1rem; }
+  .about__list {
+    color: #33FFA9;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 2rem;
+    list-style: square; }
+
+.work-box {
+  border: 0px solid #8D99AE;
+  box-shadow: 0px 0px 0px 3px rgba(141, 153, 174, 0.3);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2.5rem;
+  margin: 0 2rem; }
+  .work-box__title {
+    color: #33FFA9;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600; }
+    .work-box__title:link, .work-box__title:active, .work-box__title:focus {
+      color: #33FFA9; }
+    .work-box__title:hover {
+      color: #74ffc5; }
+  .work-box__description {
+    color: #FEFEFE;
+    font-size: 1rem; }
+  .work-box__more {
+    color: #33FFA9; }
+    .work-box__more:link, .work-box__more:active, .work-box__more:focus {
+      color: #33FFA9; }
+    .work-box__more:hover {
+      color: #74ffc5; }
+  .work-box__links-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; }
+  .work-box__img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer; }
+  .work-box__skills {
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: #8D99AE; }
