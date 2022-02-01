@@ -426,7 +426,15 @@ h1 {
     list-style: square; }
 
 .work {
+  margin: 0 auto;
   margin-bottom: 5rem; }
+  .work__grid {
+    display: block; }
+    @media only screen and (min-width: 62.5em) {
+      .work__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        max-width: 1200px; } }
 
 .work-box {
   border: 0px solid #8D99AE;
