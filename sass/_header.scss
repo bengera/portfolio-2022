@@ -1,0 +1,95 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+
+    // border: 2px solid red;
+    
+
+    &__content {
+        padding: 4rem;
+        margin-bottom: 1rem;
+        
+        
+    }
+
+    &__tagline {
+        line-height: 28px;
+        font-size: 1.3rem;
+        color: $color-manatee;
+        margin-bottom: 3rem;
+
+        @media only screen and (min-width: $bp-medium) {
+            
+            max-width: 75%;
+          }
+    }
+
+    &__cta {
+        background: transparent;
+        color: $color-white;
+        padding: 1rem 2.2rem;
+        border-radius: 3.5rem;
+        border: 2px solid $color-green;
+        cursor: pointer;
+        
+    }
+}
+
+//TYPOGRAPHY
+
+h1 {
+
+    font-size: clamp(50px, 8vw, 90px);
+    // font-size: 3.5rem;
+    font-weight: 700;
+    color: $color-white;
+    margin-bottom: 1rem;
+    
+}
+
+
+.bold {
+    color: $color-green;
+    font-weight: 600;
+}
+
+
+//NAVIGATION
+.nav {
+    display: none;
+
+    @media only screen and (min-width: $bp-medium) {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        // border: 2px solid white;
+        padding: 2rem;
+    
+        &__nav-list {
+            display: flex;
+            justify-content: space-evenly;
+            color: $color-white;
+            list-style: none;
+            gap: 55px;
+        }
+    
+        &__nav-item {
+            cursor: pointer;
+    
+            &:hover {
+                border-bottom: 3px solid $color-green;
+                color: $color-green;
+                
+          
+              }
+        }
+      }
+    
+  
+}
