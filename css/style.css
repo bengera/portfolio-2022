@@ -335,6 +335,19 @@ main {
     .section-heading {
       margin-bottom: 5rem; } }
 
+.container {
+  margin: 0 1rem 0 1rem; }
+
+.work-title {
+  color: #33FFA9;
+  padding: 2rem;
+  border: 2px solid red;
+  text-align: center; }
+
+.description {
+  color: #FEFEFE;
+  line-height: 1.3rem; }
+
 .hero {
   min-height: 100vh;
   display: flex;

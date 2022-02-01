@@ -80,7 +80,22 @@ main {
 
 
 
+// Display work page
+.container {
+  margin: 0 1rem 0 1rem;
+}
 
+.work-title {
+  color: $color-green;
+  padding: 2rem;
+  border: 2px solid red;
+  text-align: center;
+}
+
+.description {
+  color: $color-white;
+  line-height: 1.3rem;
+}
 
 
 
