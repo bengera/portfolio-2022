@@ -45,17 +45,25 @@
 
     &__description {
         color: $color-white;
-        font-size: 20px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 1.3rem;
         margin-bottom: 1rem;
         line-height: 30px;
+
+        @media only screen and (min-width: $bp-large) {
+            font-size: 20px;
     }
+}
 
     &__list {
         color: $color-green;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 26px;
         margin-left: 2rem;
         list-style: square;
+
+        @media only screen and (min-width: $bp-large) {
+            font-size: 20px;
+    }
     }
 }

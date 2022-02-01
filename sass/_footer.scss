@@ -29,6 +29,13 @@
         border: 2px solid $color-green;
         cursor: pointer;
         margin: 1rem 0;
+        transition: .5s ease;
+
+        &:hover {
+            background-color: $color-green;
+            color: #222;
+            transition: .5s ease;
+        }
     }
 
     &__copyright {
