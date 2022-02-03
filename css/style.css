@@ -339,6 +339,19 @@ main {
     .section-heading {
       margin-bottom: 5rem; } }
 
+.btn {
+  background: transparent;
+  color: #FEFEFE;
+  padding: 1rem 2.2rem;
+  border-radius: 3.5rem;
+  border: 2px solid #33FFA9;
+  cursor: pointer;
+  transition: .5s ease; }
+  .btn:hover {
+    background-color: #33FFA9;
+    color: #222;
+    transition: .5s ease; }
+
 .container {
   margin: 0 1rem 0 1rem; }
 
@@ -357,6 +370,11 @@ main {
   font-size: 16px;
   margin-bottom: 4rem; }
 
+.links__previous:hover,
+.links__next:hover {
+  color: #33FFA9;
+  transition: .5s ease; }
+
 .links {
   display: flex;
   justify-content: space-between;
@@ -372,23 +390,27 @@ main {
     text-decoration: none; }
 
 .img-container {
-  max-width: 100%; }
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr min-content;
+  margin-bottom: 5rem;
+  max-width: 100%;
+  gap: 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .img-container {
+      display: block; } }
 
-.img-preview {
-  max-width: 100%; }
+.img-preview-big {
+  max-width: 100%;
+  grid-column: 1 / -1; }
 
-.btn {
-  background: transparent;
-  color: #FEFEFE;
-  padding: 1rem 2.2rem;
-  border-radius: 3.5rem;
-  border: 2px solid #33FFA9;
-  cursor: pointer;
-  transition: .5s ease; }
-  .btn:hover {
-    background-color: #33FFA9;
-    color: #222;
-    transition: .5s ease; }
+.img-preview-small-left {
+  max-width: 100%;
+  grid-column: 1 / 7; }
+
+.img-preview-small-right {
+  max-width: 100%;
+  grid-column: 7 / -1; }
 
 .hero {
   min-height: 100vh;
