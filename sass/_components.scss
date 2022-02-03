@@ -1,0 +1,16 @@
+.btn {
+    background: transparent;
+    color: $color-white;
+    padding: 1rem 2.2rem;
+    border-radius: 3.5rem;
+    border: 2px solid $color-green;
+    cursor: pointer;
+    transition: .5s ease;
+
+    &:hover {
+        background-color: $color-green;
+        color: #222;
+        transition: .5s ease;
+}
+
+}

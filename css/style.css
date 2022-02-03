@@ -326,6 +326,10 @@ main {
     main {
       max-width: 1200px; } }
 
+.main-work-page {
+  position: relative;
+  display: flex; }
+
 .section-heading {
   color: #FEFEFE;
   text-align: center;
@@ -336,7 +340,7 @@ main {
       margin-bottom: 5rem; } }
 
 .container {
-  margin: 5rem 1rem 0 1rem; }
+  margin: 0 1rem 0 1rem; }
 
 .work-title {
   color: #33FFA9;
@@ -373,6 +377,19 @@ main {
 .img-preview {
   max-width: 100%; }
 
+.btn {
+  background: transparent;
+  color: #FEFEFE;
+  padding: 1rem 2.2rem;
+  border-radius: 3.5rem;
+  border: 2px solid #33FFA9;
+  cursor: pointer;
+  transition: .5s ease; }
+  .btn:hover {
+    background-color: #33FFA9;
+    color: #222;
+    transition: .5s ease; }
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -392,18 +409,6 @@ main {
     @media only screen and (min-width: 50em) {
       .hero__tagline {
         max-width: 75%; } }
-  .hero__cta {
-    background: transparent;
-    color: #FEFEFE;
-    padding: 1rem 2.2rem;
-    border-radius: 3.5rem;
-    border: 2px solid #33FFA9;
-    cursor: pointer;
-    transition: .5s ease; }
-    .hero__cta:hover {
-      background-color: #33FFA9;
-      color: #222;
-      transition: .5s ease; }
 
 h1 {
   font-size: clamp(50px, 8vw, 90px);
@@ -550,18 +555,7 @@ h1 {
   .footer__sub {
     color: #FEFEFE; }
   .footer__button {
-    background: transparent;
-    color: #FEFEFE;
-    padding: 1rem 2.2rem;
-    border-radius: 3.5rem;
-    border: 2px solid #33FFA9;
-    cursor: pointer;
-    margin: 1rem 0;
-    transition: .5s ease; }
-    .footer__button:hover {
-      background-color: #33FFA9;
-      color: #222;
-      transition: .5s ease; }
+    margin: 1rem 0; }
   .footer__copyright {
     color: #FEFEFE;
     font-size: 0.9rem;
