@@ -326,6 +326,9 @@ main {
     main {
       max-width: 1200px; } }
 
+ol, ul {
+  padding: 0; }
+
 .main-work-page {
   position: relative;
   display: flex; }
@@ -605,7 +608,7 @@ h1 {
   flex-direction: column;
   gap: 20px;
   padding: 2.5rem;
-  margin: 0 2rem 3rem 2rem;
+  margin: 0 1.5rem 3rem 1.5rem;
   justify-content: space-between; }
   .work-box__title {
     color: #33FFA9;
