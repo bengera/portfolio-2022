@@ -352,6 +352,85 @@ main {
     color: #222;
     transition: .5s ease; }
 
+.bootstrap-bar {
+  position: absolute;
+  top: 0;
+  right: 0; }
+  @media only screen and (min-width: 50em) {
+    .bootstrap-bar {
+      display: none; } }
+
+.nav-link {
+  color: #33FFA9; }
+  .nav-link:hover {
+    color: #74ffc5; }
+
+.navbar-dark .navbar-toggler {
+  color: #33FFA9;
+  border-color: #8D99AE; }
+
+/*
+// HAMBURGER MENU
+.menu-btn {
+    // border: 2px solid red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+    @media only screen and (min-width: $bp-medium) {
+        display: none;
+      }
+  
+    &__burger {
+      width: 50px;
+      height: 6px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out;
+  
+      &:before,
+      &:after
+      {
+       content: '';
+      position: absolute;
+      width: 50px;
+      height: 6px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out; 
+      }
+      
+      &:before {
+        transform: translateY(-16px);
+      }
+      
+      &:after {
+        transform: translateY(16px);
+      }
+  
+      
+  }
+  
+  }
+  
+  /* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+  transform: translatex(-50px);
+  background: transparent; }
+
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px); }
+
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px); }
+
 .container {
   margin: 0 1rem 0 1rem; }
 
@@ -363,6 +442,9 @@ main {
   border-radius: 25px;
   margin-top: 8rem;
   margin-bottom: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .work-title {
+      margin-top: 4.5rem; } }
 
 .description {
   color: #FEFEFE;
@@ -433,7 +515,7 @@ main {
         max-width: 75%; } }
 
 h1 {
-  font-size: clamp(50px, 8vw, 90px);
+  font-size: clamp(40px, 8vw, 90px);
   font-weight: 700;
   color: #FEFEFE;
   margin-bottom: 1rem; }

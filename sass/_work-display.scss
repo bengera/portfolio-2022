@@ -13,6 +13,11 @@
     border-radius: 25px;
     margin-top: $margin-largest;
     margin-bottom: $margin-small;
+
+    @media only screen and (max-width: $bp-small) {
+            
+      margin-top: 4.5rem;
+    }
   }
   
   .description {

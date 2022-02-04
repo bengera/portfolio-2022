@@ -1,3 +1,5 @@
+//GENERAL BUTTON
+
 .btn {
     background: transparent;
     color: $color-white;
@@ -14,3 +16,101 @@
 }
 
 }
+
+
+// BOOSTRAP EDITS
+
+// CONTAINER FOR MOBILE NAV
+.bootstrap-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+    @media only screen and (min-width: $bp-medium) {
+        display: none;
+      }
+}
+
+.nav-link {
+    color: $color-green;
+
+    &:hover {
+        color:#74ffc5;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    color:$color-green;
+    border-color:$color-manatee;
+   }
+   
+
+
+/*
+// HAMBURGER MENU
+.menu-btn {
+    // border: 2px solid red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+    @media only screen and (min-width: $bp-medium) {
+        display: none;
+      }
+  
+    &__burger {
+      width: 50px;
+      height: 6px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out;
+  
+      &:before,
+      &:after
+      {
+       content: '';
+      position: absolute;
+      width: 50px;
+      height: 6px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out; 
+      }
+      
+      &:before {
+        transform: translateY(-16px);
+      }
+      
+      &:after {
+        transform: translateY(16px);
+      }
+  
+      
+  }
+  
+  }
+  
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    transform: translatex(-50px);
+    background: transparent;
+    
+  }
+  
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+  
+

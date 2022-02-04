@@ -6,15 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 2022</title>
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+rel="stylesheet"
+/>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
 </head>
 
 <body>
 
+
+
     <header class="hero">
+
+        <!-- <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div> -->
+        <div class="bootstrap-bar">
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <!-- <h5 class="text-white h4">Menu</h5> -->
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </nav>
+          
+        </div>
+
+
         <nav class="nav">
 
             <ul class="nav__nav-list">
@@ -80,16 +148,16 @@
                     <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur sit amet, consectetursit
                         amet, consectetur adipiscing elit.</p>
                     <div class="work-box__bottom">
-                    <div class="work-box__links-container">
-                        <a href="#" class="work-box__more">See more</a>
-                        <img class="work-box__img" src="img/github.png" alt="github-icon">
+                        <div class="work-box__links-container">
+                            <a href="#" class="work-box__more">See more</a>
+                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                        </div>
+                        <div class="work-box__skills">
+                            <p>SCSS</p>
+                            <p>JS</p>
+                            <p>Bootstrap</p>
+                        </div>
                     </div>
-                    <div class="work-box__skills">
-                        <p>SCSS</p>
-                        <p>JS</p>
-                        <p>Bootstrap</p>
-                    </div>
-                </div>
                 </div>
                 <!--workbox-->
 
@@ -97,19 +165,20 @@
                 <!--workbox-->
                 <div class="work-box">
                     <a href="#" class="work-box__title">Portfolio 2.0</a>
-                    <p class="work-box__description">Lorem ipsum dolsadasdasor sit amet, consectetur sit amet, consectetursit
+                    <p class="work-box__description">Lorem ipsum dolsadasdasor sit amet, consectetur sit amet,
+                        consectetursit
                         amet, consectetur adipiscing elit.</p>
-                        <div class="work-box__bottom">
-                    <div class="work-box__links-container">
-                        <a href="#" class="work-box__more">See more</a>
-                        <img class="work-box__img" src="img/github.png" alt="github-icon">
+                    <div class="work-box__bottom">
+                        <div class="work-box__links-container">
+                            <a href="#" class="work-box__more">See more</a>
+                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                        </div>
+                        <div class="work-box__skills">
+                            <p>SCSS</p>
+                            <p>JS</p>
+                            <p>Bootstrap</p>
+                        </div>
                     </div>
-                    <div class="work-box__skills">
-                        <p>SCSS</p>
-                        <p>JS</p>
-                        <p>Bootstrap</p>
-                    </div>
-                </div>
                 </div>
                 <!--workbox-->
                 <!--workbox-->
@@ -119,17 +188,17 @@
                     <a href="#" class="work-box__title">Todo-list</a>
                     <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur sit amet, consectetursit
                         amet, consectetur adipiscing elit.</p>
-                        <div class="work-box__bottom">
-                    <div class="work-box__links-container">
-                        <a href="#" class="work-box__more">See more</a>
-                        <img class="work-box__img" src="img/github.png" alt="github-icon">
-                    </div>
-                    <div class="work-box__skills">
-                        <p>SCSS</p>
-                        <p>JS</p>
-                        <p>Bootstrap</p>
-                    </div>
+                    <div class="work-box__bottom">
+                        <div class="work-box__links-container">
+                            <a href="#" class="work-box__more">See more</a>
+                            <img class="work-box__img" src="img/github.png" alt="github-icon">
                         </div>
+                        <div class="work-box__skills">
+                            <p>SCSS</p>
+                            <p>JS</p>
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
                 </div>
                 <!--workbox-->
 
@@ -138,15 +207,15 @@
                     <a href="#" class="work-box__title">ESL References</a>
                     <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="work-box__bottom">
-                    <div class="work-box__links-container">
-                        <a href="#" class="work-box__more">See more</a>
-                        <img class="work-box__img" src="img/github.png" alt="github-icon">
-                    </div>
-                    <div class="work-box__skills">
-                        <p>SCSS</p>
-                        <p>JS</p>
-                        <p>Bootstrap</p>
-                    </div>
+                        <div class="work-box__links-container">
+                            <a href="#" class="work-box__more">See more</a>
+                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                        </div>
+                        <div class="work-box__skills">
+                            <p>SCSS</p>
+                            <p>JS</p>
+                            <p>Bootstrap</p>
+                        </div>
                     </div>
                 </div>
                 <!--workbox-->
@@ -156,15 +225,15 @@
                     <a href="#" class="work-box__title">Fylo</a>
                     <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="work-box__bottom">
-                    <div class="work-box__links-container">
-                        <a href="#" class="work-box__more">See more</a>
-                        <img class="work-box__img" src="img/github.png" alt="github-icon">
-                    </div>
-                    <div class="work-box__skills">
-                        <p>SCSS</p>
-                        <p>JS</p>
-                        <p>Bootstrap</p>
-                    </div>
+                        <div class="work-box__links-container">
+                            <a href="#" class="work-box__more">See more</a>
+                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                        </div>
+                        <div class="work-box__skills">
+                            <p>SCSS</p>
+                            <p>JS</p>
+                            <p>Bootstrap</p>
+                        </div>
                     </div>
                 </div>
                 <!--workbox-->
@@ -174,15 +243,15 @@
                     <a href="#" class="work-box__title">Time Tracker</a>
                     <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="work-box__bottom">
-                    <div class="work-box__links-container">
-                        <a href="work/work-01.html" class="work-box__more">See more</a>
-                        <img class="work-box__img" src="img/github.png" alt="github-icon">
-                    </div>
-                    <div class="work-box__skills">
-                        <p>SCSS</p>
-                        <p>JS</p>
-                        <p>Bootstrap</p>
-                    </div>
+                        <div class="work-box__links-container">
+                            <a href="work/work-01.html" class="work-box__more">See more</a>
+                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                        </div>
+                        <div class="work-box__skills">
+                            <p>SCSS</p>
+                            <p>JS</p>
+                            <p>Bootstrap</p>
+                        </div>
                     </div>
                 </div>
                 <!--workbox-->
@@ -199,6 +268,7 @@
         </footer>
 
     </main>
+
 </body>
 
 </html>
