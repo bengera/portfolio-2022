@@ -353,7 +353,7 @@ main {
     transition: .5s ease; }
 
 .bootstrap-bar {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0; }
   @media only screen and (min-width: 50em) {
@@ -368,6 +368,9 @@ main {
 .navbar-dark .navbar-toggler {
   color: #33FFA9;
   border-color: #8D99AE; }
+
+.container-sm, .container {
+  max-width: none; }
 
 /*
 // HAMBURGER MENU

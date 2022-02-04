@@ -22,7 +22,7 @@
 
 // CONTAINER FOR MOBILE NAV
 .bootstrap-bar {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     
@@ -45,7 +45,9 @@
     border-color:$color-manatee;
    }
    
-
+.container-sm,.container {
+    max-width: none;
+}
 
 /*
 // HAMBURGER MENU
