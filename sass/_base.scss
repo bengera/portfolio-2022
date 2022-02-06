@@ -61,11 +61,13 @@ html {
 body {
     font-family: $font-primary;
     background-color: $color-black;
+
 }
 
 main {
     max-width: 900px;
     margin: 0 auto;
+    
 
     @media only screen and (min-width: $bp-large) {
       max-width: 1200px;

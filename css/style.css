@@ -500,7 +500,8 @@ h6 {
   gap: 1rem; }
   @media only screen and (max-width: 37.5em) {
     .img-container {
-      display: block; } }
+      display: flex;
+      flex-direction: column; } }
 
 .img-preview-big {
   max-width: 100%;
