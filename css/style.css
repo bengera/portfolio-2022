@@ -451,7 +451,7 @@ h6 {
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px); }
 
-.container {
+.container-display {
   margin: 0 1rem 0 1rem; }
 
 .work-title {
@@ -564,6 +564,10 @@ h1 {
         cursor: pointer; }
         .nav__nav-item:hover {
           border-bottom: 3px solid #33FFA9;
+          color: #33FFA9; }
+      .nav__nav-link {
+        color: #FEFEFE; }
+        .nav__nav-link:hover {
           color: #33FFA9; } }
 
 .about {

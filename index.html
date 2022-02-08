@@ -44,7 +44,7 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link"  href="mailto:bengera89@gmail.com">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -65,9 +65,10 @@
         <nav class="nav">
 
             <ul class="nav__nav-list">
-                <li class="nav__nav-item">About</li>
-                <li class="nav__nav-item">Work</li>
-                <li class="nav__nav-item">Contact</li>
+                
+                <li onclick="scrollAbout()"class="nav__nav-item"><a class="nav__nav-link">About</a></li>
+                <li onclick="scrollWork()"class="nav__nav-item"><a class="nav__nav-link">Work</a></li>
+                <li class="nav__nav-item"><a class="nav__nav-link" href="mailto:bengera89@gmail.com">Contact</a></li>
 
             </ul>
         </nav>
@@ -78,7 +79,7 @@
                 I'm a <span class="bold">front end developer </span>from the<span class="bold"> UK</span> and I'm
                 currently living in </span><span class="bold"> Vietnam, Ho Chi Minh City.</span>
             </p>
-            <button class="btn hero__cta">See my work</button>
+            <button onclick="scrollWork()"class="btn hero__cta">See my work</button>
         </div>
 
     </header>
@@ -123,18 +124,17 @@
             <ul class="work__grid">
                 <!--workbox-->
                 <div class="work-box">
-                    <a href="#" class="work-box__title">Vanguard</a>
-                    <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur sit amet, consectetursit
-                        amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="work-box__title">ESL Resources</a>
+                    <p class="work-box__description">Personal project for work. A website archive of games, activities and general online resources for ESL teachers</p>
                     <div class="work-box__bottom">
                         <div class="work-box__links-container">
                             <a href="#" class="work-box__more">See more</a>
-                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                            <a href="https://github.com/bengera/esl-v2"><img class="work-box__img" src="img/github.png" alt="github-icon"></a>
                         </div>
                         <div class="work-box__skills">
                             <p>SCSS</p>
                             <p>JS</p>
-                            <p>Bootstrap</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -143,14 +143,12 @@
                 <!--workbox-->
                 <!--workbox-->
                 <div class="work-box">
-                    <a href="#" class="work-box__title">Portfolio 2.0</a>
-                    <p class="work-box__description">Lorem ipsum dolsadasdasor sit amet, consectetur sit amet,
-                        consectetursit
-                        amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="work-box__title">Fylo Website</a>
+                    <p class="work-box__description">A Front end mentor challenge. The challenge was to build the dashboard and get it looking as close the design as possible.</p>
                     <div class="work-box__bottom">
                         <div class="work-box__links-container">
                             <a href="#" class="work-box__more">See more</a>
-                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                            <a href="https://github.com/bengera/fylo-dark"><img class="work-box__img" src="img/github.png" alt="github-icon"></a>
                         </div>
                         <div class="work-box__skills">
                             <p>SCSS</p>
@@ -165,12 +163,11 @@
                 <!--workbox-->
                 <div class="work-box">
                     <a href="#" class="work-box__title">Todo-list</a>
-                    <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur sit amet, consectetursit
-                        amet, consectetur adipiscing elit.</p>
+                    <p class="work-box__description">A simple todo list with vanilla JavaScript. You can add, remove and update each task</p>
                     <div class="work-box__bottom">
                         <div class="work-box__links-container">
                             <a href="#" class="work-box__more">See more</a>
-                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                            <a href="https://github.com/bengera/to-do-list"><img class="work-box__img" src="img/github.png" alt="github-icon"></a>
                         </div>
                         <div class="work-box__skills">
                             <p>SCSS</p>
@@ -183,12 +180,12 @@
 
                 <!--workbox-->
                 <div class="work-box">
-                    <a href="#" class="work-box__title">ESL References</a>
-                    <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="work-box__title">Sunnyside Website</a>
+                    <p class="work-box__description">A Front end mentor challenge. The challenge was to build the dashboard and get it looking as close the design as possible.</p>
                     <div class="work-box__bottom">
                         <div class="work-box__links-container">
                             <a href="#" class="work-box__more">See more</a>
-                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                            <a href="https://github.com/bengera/sunnyside"><img class="work-box__img" src="img/github.png" alt="github-icon"></a>
                         </div>
                         <div class="work-box__skills">
                             <p>SCSS</p>
@@ -201,12 +198,12 @@
 
                 <!--workbox-->
                 <div class="work-box">
-                    <a href="#" class="work-box__title">Fylo</a>
-                    <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="work-box__title">Portfolio 2021</a>
+                    <p class="work-box__description">This is my old portfolio site. Most of the site design was created using CSS grid and bootstrap to display work</p>
                     <div class="work-box__bottom">
                         <div class="work-box__links-container">
                             <a href="#" class="work-box__more">See more</a>
-                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                            <a href="https://github.com/bengera/main-portfolio"><img class="work-box__img" src="img/github.png" alt="github-icon"></a>
                         </div>
                         <div class="work-box__skills">
                             <p>SCSS</p>
@@ -219,12 +216,12 @@
 
                 <!--workbox-->
                 <div class="work-box">
-                    <a href="#" class="work-box__title">Time Tracker</a>
-                    <p class="work-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="work-box__title">BMI calculator</a>
+                    <p class="work-box__description">Basic BMI calcultor that takes an input of height and weight and calculates user's BMI.</p>
                     <div class="work-box__bottom">
                         <div class="work-box__links-container">
                             <a href="work/work-01.html" class="work-box__more">See more</a>
-                            <img class="work-box__img" src="img/github.png" alt="github-icon">
+                            <a href="https://github.com/bengera/bmi-calculator"><img class="work-box__img" src="img/github.png" alt="github-icon"></a>
                         </div>
                         <div class="work-box__skills">
                             <p>SCSS</p>

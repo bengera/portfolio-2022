@@ -83,6 +83,14 @@ h1 {
           
               }
         }
+
+        &__nav-link {
+            color: $color-white;
+
+            &:hover {
+                color: $color-green;
+            }
+        }
       }
     
   
