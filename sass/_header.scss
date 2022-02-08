@@ -7,14 +7,14 @@
     margin: 0 auto;
     position: relative;
 
-    
-    
+
+
 
     &__content {
         padding: 4rem;
         margin-bottom: 1rem;
-        
-        
+
+
     }
 
     &__tagline {
@@ -24,12 +24,12 @@
         margin-bottom: 3rem;
 
         @media only screen and (min-width: $bp-medium) {
-            
+
             max-width: 75%;
-          }
+        }
     }
 
-    
+
 }
 
 //TYPOGRAPHY
@@ -41,9 +41,23 @@ h1 {
     color: $color-white;
     margin-bottom: 1rem;
 
-    
-    
+    // transform: translateY(40%);
+    // opacity: 0;
+    // transition: transform 5s ease;
+
+
+
 }
+
+h1.show {
+    opacity: 1;
+    transform: translateY(0);
+    animation-name: fadeUp;
+    animation-duration: 1s;
+    // transition: transform 5s ease;
+}
+
+
 
 
 .bold {
@@ -63,7 +77,7 @@ h1 {
         right: 2rem;
         // border: 2px solid white;
         padding: 2rem;
-    
+
         &__nav-list {
             display: flex;
             justify-content: space-evenly;
@@ -71,17 +85,17 @@ h1 {
             list-style: none;
             gap: 55px;
         }
-    
+
         &__nav-item {
             cursor: pointer;
-    
+
             &:hover {
                 border-bottom: 3px solid $color-green;
                 color: $color-green;
-                
-                
-          
-              }
+
+
+
+            }
         }
 
         &__nav-link {
@@ -91,7 +105,7 @@ h1 {
                 color: $color-green;
             }
         }
-      }
-    
-  
+    }
+
+
 }
