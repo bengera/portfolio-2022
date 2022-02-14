@@ -28,6 +28,7 @@
             max-width: 75%;
         }
     }
+    
 
 
 }
@@ -50,11 +51,23 @@ h1 {
 }
 
 h1.show {
-    opacity: 1;
+    
     transform: translateY(0);
-    animation-name: fadeUp;
-    animation-duration: 1s;
-    // transition: transform 5s ease;
+    animation: fadeUp ease 1s;
+    
+   
+}
+
+.hero__tagline.show {
+    transform: translateY(0);
+    animation: fadeUp ease 1s;
+    
+    // animation-delay: 0.5s;
+}
+
+.hero__cta.show {
+    transform: translateY(0);
+    animation: fadeUp ease 1s; 
 }
 
 

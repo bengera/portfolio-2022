@@ -5,7 +5,9 @@ const cta = document.querySelector('.hero__cta');
 
 window.addEventListener('load', () => {
     console.log('loaded');
-    h1.classList.add('show')
+    h1.classList.add('show');
+    tagLine.classList.add('show');
+    cta.classList.add('show');
 })
 
 

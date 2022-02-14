@@ -395,9 +395,9 @@ h6 {
     display: none;
     opacity: 0;
     transform: translateY(40%); }
-  1% {
+  50% {
     display: block;
-    opacity: 0; }
+    opacity: 0.5; }
   100% {
     display: block;
     opacity: 1; } }
@@ -493,10 +493,16 @@ h1 {
   margin-bottom: 1rem; }
 
 h1.show {
-  opacity: 1;
   transform: translateY(0);
-  animation-name: fadeUp;
-  animation-duration: 1s; }
+  animation: fadeUp ease 1s; }
+
+.hero__tagline.show {
+  transform: translateY(0);
+  animation: fadeUp ease 1s; }
+
+.hero__cta.show {
+  transform: translateY(0);
+  animation: fadeUp ease 1s; }
 
 .bold {
   color: #33FFA9;
